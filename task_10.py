@@ -18,7 +18,7 @@ for i in range(len(num)):
         sum = sum + 1
     
 
-if round(leng / 2,0) <= sum:
+if round(leng / 2, 0) <= sum:
     what_turn = 0
 
 
