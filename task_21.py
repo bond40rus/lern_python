@@ -6,7 +6,7 @@ u_value = set( val for dic in L for val in dic.values())
 print("Unique Values: ",u_value)
 
 
-# Решение 2
+print('Решение 2') 
 list_1 = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII": "S005"}, {"V": "S009"}, {"VIII": "S007"}]
 list_2 = list()
 for i in list_1:
@@ -20,7 +20,7 @@ for i in list_2:
 print(list_result)
 
 
-# решение 3
+print('Решение 3') 
 
 list_1 = [{"V": "S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII": " S005 "}, {" V ":" S009 "}, {" VIII ":" S007 "}]
 set_1 = set()
