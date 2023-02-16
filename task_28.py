@@ -3,7 +3,7 @@
 # 2 2
 # 4
 
-def sum(a, b):
+def sum(a, b) -> int:
     if b == 0:
         return a
     else:

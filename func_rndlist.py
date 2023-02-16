@@ -1,8 +1,8 @@
 from random import randint
 
 
-def rnd(maxnum: int):
-    return randint(1, maxnum)
+def rnd(minimum,maxnum: int) -> int :
+    return randint(minimum, maxnum)
 
 #############################
 def new_list_sort(count: int, num: int):
@@ -15,11 +15,11 @@ def new_list_sort(count: int, num: int):
     return ls
 
 #############################
-def new_list(count: int, num: int):
+def new_list(count: int, num: int, min_num = 1):
     ls = []
     a = 0
     while a < count:
-        ls.append(rnd(num))
+        ls.append(rnd(min_num, num))
         a += 1
     return ls
 
